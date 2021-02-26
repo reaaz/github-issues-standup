@@ -25,7 +25,7 @@ const createStoryLink = function(issueLink) {
 
 const createStory = function(issueRow, statusList) {
   const title = createStoryTitle(issueRow);
-  const issueLink = issueRow.querySelector('.link-gray-dark');
+  const issueLink = issueRow.querySelector('.Link--primary');
   const storyLink = createStoryLink(issueLink);
 
   const story = document.createElement('li');
